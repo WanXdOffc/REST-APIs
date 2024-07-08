@@ -21,7 +21,7 @@ function updateClock() {
    
    getIpAddress();
    
-   $.getJSON("https://visitor-counter.kentodlahh11.workers.dev/visit?url=rzky.my.id", function(response) {
+   $.getJSON("https://visitor-counter.kentodlahh11.workers.dev/visit?url=hosei.xyz", function(response) {
      $("#visitor").text(`${response.today} / ${response.total}`)  
    })
    

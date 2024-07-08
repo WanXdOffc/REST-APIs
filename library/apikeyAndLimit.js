@@ -10,7 +10,7 @@ module.exports = async function (req, res, next) {
     if (!apikey) {
         return res.json({
             status: false,
-            dev: "Rizkymaulana.",
+            dev: "Darmawan.",
             message: "Masukkan parameter apikey"
         });
     }
@@ -35,7 +35,7 @@ module.exports = async function (req, res, next) {
     if (validasi && !premium) {
         return res.json({
             status: false,
-            dev: "Rizkymaulana.",
+            dev: "Darmawan.",
             msg: "Apikey is not registered or requests limit exceeded (30 req / day)."
         });
     }

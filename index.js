@@ -191,7 +191,7 @@ app.get('/deposit', isAuthenticated, async (req, res) => {
 	const uptime = getUptime();
 	const averageResponseTime = Date.now() - req.startTime;
 	const response = {
-	  developer: `Rizkymaulana.`,
+	  developer: `Darmawan.`,
 	  uptime: uptime,
 	  latencia: `${averageResponseTime} ms`
 	};

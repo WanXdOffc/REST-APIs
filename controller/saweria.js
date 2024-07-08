@@ -26,7 +26,7 @@ class Saweria {
                amount: Number(amount),
                customer_info: {
                   first_name: 'Payment Gateway',
-                  email: 'rizkyxd633@gmail.com',
+                  email: 'iketutdharmawan2007@gmail.com',
                   phone: '',
                },
                message: msg,

@@ -60,7 +60,7 @@ class Ephoto {
 			}).catch(() => res.json(functions.loghandler.error));
 		});
 	}
-	image(res, url, link, text = ["HeavyCraft", "RestAPIs"], agent) {
+	image(res, url, link, text = ["Hosei", "RestAPIs"], agent) {
 		return new Promise(async (resolve, reject) => {
 			let urlCookie = await axios.get(url);
 			let buffer, width, height;

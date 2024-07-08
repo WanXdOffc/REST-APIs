@@ -9,7 +9,7 @@ module.exports = function(passport) {
   passport.use(new GoogleStrategy({
     clientId: "855077106553-mcabh21glhbft8k35pa1oslu39gius0k.apps.googleusercontent.com",
     clientSecret: "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",
-    callbackURL: "https://rzky.my.id/users/google/callback"
+    callbackURL: "https://hosei.xyz/users/google/callback"
   }, async (accessToken, refreshToken, profile, done) => {
     try {
     	const users = await db.findOne({ email: profile.emails[0].value }) 

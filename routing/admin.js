@@ -230,7 +230,7 @@ router.post("/updates", isAuthenticated, isAdmin, async (req, res) => {
 		const anu = await User.findOne({ email: email });
 		let resulter;
 		try {
-			resulter = await getJson("https://rzky.my.id/api/cekkey?apikey=" + anu.apikey, { method: 'GET' });
+			resulter = await getJson("https://hosei.xyz/api/cekkey?apikey=" + anu.apikey, { method: 'GET' });
 		} catch (er) {
 			console.log(er);
 			requests(false, undefined);

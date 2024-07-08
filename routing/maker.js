@@ -18,7 +18,7 @@ const { Tools } = require("./../scrapping/tools");
 const sticker = new Sticker();
 const tools = new Tools();
 const apikeyAndLimit = require("../library/apikeyAndLimit");
-const developer = "Rizkymaulana";
+const developer = "Darmawan";
 router = Router();
 
 router.get("/meme", apikeyAndLimit, async (req, res) => {

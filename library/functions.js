@@ -241,6 +241,6 @@ exports.loghandler = {
 	error: {
 		status: false,
 		developer,
-		result: "Error!, Silahkan Untuk Report Di https://rzky.my.id/ticket"
+		result: "Error!, Silahkan Untuk Report Di https://hosei.xyz/ticket"
 	}
 };
