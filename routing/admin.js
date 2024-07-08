@@ -210,7 +210,7 @@ router.post("/updates", isAuthenticated, isAdmin, async (req, res) => {
 	let checking = await checkEmail(email);
 	let regex = new RegExp(/(0?[1-9]|[12][0-9]|3[01])[\/\,] ([A-Z][a-z]+) \d{4}$/m, "g");
 	let bool = ["false", "true"];
-	const requests = (status, result) => res.json({ status, dev: "Rzky", result });
+	const requests = (status, result) => res.json({ status, dev: "Darmawan", result });
 	if ((email.length || limit.length || expired.length) < 1) {
 		requests("error_msg", "Masukkan input dengan benar");
 	} else if (!checking) {

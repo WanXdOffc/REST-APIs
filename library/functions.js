@@ -5,7 +5,7 @@ const { User } = require("../database/model");
 const filesize = require("../controller/filesize");
 const { user } = require("./settings");
 const pool = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ234567890".split("");
-const developer = "Rizkymaulana";
+const developer = "Darmawan";
 
 function randomText(len) {
     const result = [];
