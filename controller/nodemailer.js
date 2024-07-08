@@ -15,8 +15,8 @@ const nodemailer = require('nodemailer');
 const mailTransporter = nodemailer.createTransport({
 	service: 'gmail', // use a valid email service, e.g., 'gmail', 'yahoo', 'outlook'
 	auth: {
-	  user: 'heavycrafttt@gmail.com', // replace with your email address
-	  pass: 'xttutwufntstwdjj' // replace with your email password or an app-specific password
+	  user: 'iketutdharmawan2007@gmail.com', // replace with your email address
+	  pass: 'qncnyhnppejywppg' // replace with your email password or an app-specific password
 	}
   });
 
@@ -49,9 +49,9 @@ module.exports.sendMailRegister = (mailOptions) => {
 
 module.exports.sendMailPassword = (email, url) => {
 	mailTransporter.sendMail({
-	  from: 'heavycrafttt@email.com',
+	  from: 'iketutdharmawan2007@email.com',
 	  to: email,
-	  subject: 'HEAVY CRAFT API || CHANGE PASSWORD',
+	  subject: 'HOSEI API || CHANGE PASSWORD',
 	  html: htmlPassword(url)
 	}, function (error, response) {
 	  if (error) {

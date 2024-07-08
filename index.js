@@ -47,7 +47,7 @@ const getUptime = () => {
 app.use(Limiter({
 	windowMs: 1 * 60 * 1000,
 	max: 1000,
-	message: "Oops too many requests #HeavyCraft."
+	message: "Oops too many requests #HoseiAPIs."
 }));
 
 connectMongoDb();
@@ -309,8 +309,8 @@ cron.schedule('0 23 * * *', async () => {
             }
           ],
           author: {
-            name: 'Heavy Craft',
-            icon_url: 'https://i.ibb.co/9bSHN1j/d4f8ce09-e777-445c-bb02-0addf9892ed2-removebg-preview.png'
+            name: 'Hosei APIs',
+            icon_url: 'https://i.ibb.co.com/KDNkssr/IMG-20240603-173706-729.jpg'
           },
           image: {
             url: 'https://l.top4top.io/p_3048jydq51.gif' // Menampilkan URL QR code yang diterima

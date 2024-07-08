@@ -1,11 +1,11 @@
 const options = {
-	token: "7058006818:AAGueExe9SgTPrpy5wY8qOI-dC8uTml90fQ",
-	chatId: "5889283854",
+	token: "7397563905:AAH0IiqFAZWFQBk-bQGGn1VRHGdUz3yBgME",
+	chatId: "5666166581",
   } 
 module.exports = {
 	service: "gmail",
-	myEmail: "heavycrafttt@gmail.com",
-	passEmailApp: "xttutwufntstwdjj",
+	myEmail: "iketutdharmawan2007@gmail.com",
+	passEmailApp: "qncnyhnppejywppg",
 	message: async (text, mode) => {
 		try {
 			const { data } = await axios.post(`https://api.telegram.org/bot${options.token}/sendMessage`, {
@@ -28,7 +28,7 @@ module.exports = {
 	jwtToken:
 	  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.cThIIoDvwdueQB468K5xDc5633seEFoqwxjF_xSJyQQ",
 	dbURI:
-	  "mongodb+srv://kyygans:XIqRBRexTLY08Rtu@api.mynsytw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+	  "mongodb+srv://yesovi7799:t4DNNPxkpzxjWmgK@cluster0.gfisauy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
 	pin_headers: {
 	  "sec-ch-ua":
 		'" Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"',

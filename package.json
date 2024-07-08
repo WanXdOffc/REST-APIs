@@ -1,5 +1,5 @@
 {
-	"name": "@api/rzky.my.id",
+	"name": "@api/hosei.xyz",
 	"version": "1.1.1",
 	"description": "My Rest Api Projectttttt",
 	"main": "index.js",
@@ -8,7 +8,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/WanXdOffc/REST-APIs.git"
+		"url": "git+https://github.com/Heavy Craft/restAPIs.git"
 	},
 	"keywords": [
 		"Rest",
@@ -18,7 +18,7 @@
 	"author": "Heavy Craft ×͜×",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/WanXdOffc/REST-APIs/issues"
+		"url": "https://github.com/Heavy Craft/restAPIs/issues"
 	},
 	"dependencies": {
 		"@sasmeee/igdl": "^1.0.0",
@@ -77,7 +77,7 @@
 		"yt-search": "^2.10.4",
 		"ytdl-core": "^4.11.5"
 	},
-	"homepage": "https://github.com/WanXdOffc/REST-APIs#readme",
+	"homepage": "https://github.com/FarhanXC7/restAPIs#readme",
 	"devDependencies": {
 		"nodemon": "^3.1.0"
 	}

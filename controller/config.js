@@ -1,7 +1,7 @@
 module.exports.htmlRegister = (urlVerif) => `<!DOCTYPE html>
 		 <html>
 				<head>
-	<title>HEAVYCRAFT VERIFIKASI</title>
+	<title>HOSEI VERIFIKASI</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -90,7 +90,7 @@ module.exports.htmlRegister = (urlVerif) => `<!DOCTYPE html>
 				<table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
 					<tr>
 						<td bgcolor="#ffffff" align="center" valign="top" style="padding: 40px 20px 20px 20px; border-radius: 4px 4px 0px 0px; color: #111111; font-family: 'Acme', sans-serif; font-size: 20px; font-weight: 200; letter-spacing: 2px; line-height: 48px;">
-							<h1 style="font-size: 15px; font-weight: 200; margin: 2;">HEAVY CRAFT</h1> <img src="https://i.ibb.co/9bSHN1j/d4f8ce09-e777-445c-bb02-0addf9892ed2-removebg-preview.png" width="150" height="150" style="display: block; border: 0px;" />
+							<h1 style="font-size: 15px; font-weight: 200; margin: 2;">HOSEI</h1> <img src="https://i.ibb.co.com/KDNkssr/IMG-20240603-173706-729.jpg" width="150" height="150" style="display: block; border: 0px;" />
 						</td>
 					</tr>
 				</table>
@@ -136,7 +136,7 @@ module.exports.htmlRegister = (urlVerif) => `<!DOCTYPE html>
 					</tr>
 					<tr>
 						<td bgcolor="#ffffff" align="left" style="padding: 0px 30px 40px 30px; border-radius: 0px 0px 4px 4px; color: #666666; font-family: 'Acme', sans-serif; font-size: 10px; font-weight: 400; line-height: 25px;">
-							<p style="margin: 0;">Cheers,<br>Rizkymaulana</p>
+							<p style="margin: 0;">Cheers,<br>Darmawan.</p>
 						</td>
 					</tr>
 				</table>
@@ -156,7 +156,7 @@ module.exports.htmlPassword = (url) => `
 <!DOCTYPE html>
 		 <html>
 				<head>
-	<title>HEAVYCRAFT VERIFIKASI</title>
+	<title>HOSEI VERIFIKASI</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -245,7 +245,7 @@ module.exports.htmlPassword = (url) => `
 				<table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
 					<tr>
 						<td bgcolor="#ffffff" align="center" valign="top" style="padding: 40px 20px 20px 20px; border-radius: 4px 4px 0px 0px; color: #111111; font-family: 'Acme', sans-serif; font-size: 20px; font-weight: 200; letter-spacing: 2px; line-height: 48px;">
-							<h1 style="font-size: 15px; font-weight: 200; margin: 2;">HEAVY CRAFT API</h1> <img src="https://i.ibb.co/9bSHN1j/d4f8ce09-e777-445c-bb02-0addf9892ed2-removebg-preview.png" width="180" height="180" style="display: block; border: 0px;" />
+							<h1 style="font-size: 15px; font-weight: 200; margin: 2;">HOSEI API</h1> <img src="https://i.ibb.co.com/KDNkssr/IMG-20240603-173706-729.jpg" width="180" height="180" style="display: block; border: 0px;" />
 						</td>
 					</tr>
 				</table>
@@ -276,12 +276,12 @@ module.exports.htmlPassword = (url) => `
 					</tr>
 					<tr>
 					<td bgcolor="#ffffff" align="left" style="padding: 20px 30px 40px 30px; color: #666666; font-family: 'Acme', sans-serif; font-size: 14px; font-weight: 400; line-height: 25px;">
-					<p style="margin: 0;">For user convenience, we admin rzky provide this page. thank you for always supporting.</p>
+					<p style="margin: 0;">For user convenience, we admin wan provide this page. thank you for always supporting.</p>
 					</td>
 					</tr>
 					<tr>
 						<td bgcolor="#ffffff" align="left" style="padding: 0px 30px 40px 30px; border-radius: 0px 0px 4px 4px; color: #666666; font-family: 'Acme', sans-serif; font-size: 10px; font-weight: 400; line-height: 25px;">
-							<p style="margin: 0;">Cheers,<br>RIZKY MAULANA</p>
+							<p style="margin: 0;">Cheers,<br>Darmawan</p>
 						</td>
 					</tr>
 				</table>
