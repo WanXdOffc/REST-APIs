@@ -107,7 +107,7 @@ let tokenize = new Array();
 router.get('/generate-code', isAuthenticated, async (req, res) => {
     const { username } = req.user;
 
-  if (username !== 'rzkymlna') {
+  if (username !== 'Darmawan') {
     req.flash('error', 'Anda tidak memiliki izin untuk mengakses halaman ini.');
     return res.redirect('/docs');
   }
@@ -127,7 +127,7 @@ router.get('/generate-code', isAuthenticated, async (req, res) => {
   
   router.get('/redeem-code-history', async (req, res) => {
     const { username } = req.user;
-    if (username !== 'rzkymlna') {
+    if (username !== 'Darmawan') {
         req.flash('error', 'Anda tidak memiliki izin untuk mengakses halaman ini.');
         return res.redirect('/docs');
     }
@@ -789,7 +789,7 @@ router.get('/claim-daily/:email', isAuthenticated, async (req, res) => {
     const tickets = await Ticket.find();
     const { username } = req.user;
 
-    if (username !== 'rzkymlna') {
+    if (username !== 'Darmawan') {
       req.flash('error', 'Anda tidak memiliki izin untuk mengakses halaman ini.');
       return res.redirect('/docs');
     }
@@ -802,7 +802,7 @@ router.get('/claim-daily/:email', isAuthenticated, async (req, res) => {
     const idTiket = req.params.id;
     const { username } = req.user;
 
-    if (username !== 'rzkymlna') {
+    if (username !== 'Darmawan') {
       req.flash('error', 'Anda tidak memiliki izin untuk mengakses halaman ini.');
       return res.redirect('/docs');
     }
@@ -824,7 +824,7 @@ router.post('/tiket/:id/delete', isAuthenticated, async (req, res) => {
     const idTiket = req.params.id;
     const { username } = req.user;
 
-    if (username !== 'rzkymlna') {
+    if (username !== 'Darmawan') {
       req.flash('error', 'Anda tidak memiliki izin untuk mengakses halaman ini.');
       return res.redirect('/docs');
     }

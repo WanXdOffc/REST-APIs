@@ -43,12 +43,12 @@ class Saweria {
                }
             })).data
             if (!json || !json.data || !json.data.id) return resolve({
-               creator: "Rzkymlna.",
+               creator: "Darmawan.",
                status: false,
                msg: 'ERROR!'
             })
             resolve({
-               creator: "Rzkymlna.",
+               creator: "Darmawan.",
                status: true,
                data: {
                   ...json.data,
@@ -91,20 +91,20 @@ class Saweria {
             const $ = cheerio.load(html)
             const msg = $('h2[class="chakra-heading css-14dtuui"]').text()
             if (!msg) return resolve({
-               creator: "Rzkymlna.",
+               creator: "Darmawan.",
                status: false,
                  msg: 'TRANSAKSI TIDAK TERDAFTAR ATAU BELUM TERSELESAIKAN*\n\n*catatan:tolong check status transaksi kamu dengan mengetik check sekali lagi jika yakin telah menyelesaikan transaksi pembayaran'
             })
             const status = msg.toLowerCase() == 'berhasil' ? true : false
             resolve({
-               creator: "Rzkymlna.",
+               creator: "Darmawan.",
                status,
                msg: msg.toUpperCase()
             })
          } catch (e) {
             console.log(e)
             resolve({
-               creator: "Rzkymlna.",
+               creator: "Darmawan.",
                status: false,
                msg: e.message
             })
